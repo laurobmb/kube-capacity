@@ -19,3 +19,4 @@ vendor
 .idea
 
 kubectl-resource_capacity
+test_out.txt
