@@ -1,0 +1,26 @@
+go test -v ./...
+?   	github.com/robscott/kube-capacity	[no test files]
+=== RUN   TestGetPodsAndNodes
+--- PASS: TestGetPodsAndNodes (0.00s)
+=== RUN   TestBuildListClusterMetricsNoOptions
+--- PASS: TestBuildListClusterMetricsNoOptions (0.00s)
+=== RUN   TestBuildListClusterMetricsAllOptions
+--- PASS: TestBuildListClusterMetricsAllOptions (0.00s)
+=== RUN   TestBuildClusterMetricEmpty
+--- PASS: TestBuildClusterMetricEmpty (0.00s)
+=== RUN   TestBuildClusterMetricFull
+--- PASS: TestBuildClusterMetricFull (0.00s)
+=== RUN   TestSortByPodCount
+--- PASS: TestSortByPodCount (0.00s)
+=== RUN   TestGetLineItems
+=== RUN   TestGetLineItems/all_false
+=== RUN   TestGetLineItems/some_true
+=== RUN   TestGetLineItems/all_true
+--- PASS: TestGetLineItems (0.00s)
+    --- PASS: TestGetLineItems/all_false (0.00s)
+    --- PASS: TestGetLineItems/some_true (0.00s)
+    --- PASS: TestGetLineItems/all_true (0.00s)
+PASS
+ok  	github.com/robscott/kube-capacity/pkg/capacity	(cached)
+?   	github.com/robscott/kube-capacity/pkg/cmd	[no test files]
+?   	github.com/robscott/kube-capacity/pkg/kube	[no test files]
